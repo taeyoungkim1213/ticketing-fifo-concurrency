@@ -87,3 +87,8 @@ DB는 결과 저장소로만 사용하고,
 <img width="1023" alt="image" src="https://github.com/Sangyong-Jeon/coupon_fifo-concurrency_issue/assets/80039556/e0c56eaf-11be-4532-905c-194acfda7c50">
 
 - 15개 쓰레드 생성하여 10000명의 회원티켓 발급을 병렬처리 테스트함
+
+<img width="1317" height="566" alt="image" src="https://github.com/user-attachments/assets/2f077d38-8224-4415-a36e-43d4dbfc3588" />
+
+-결과.
+
