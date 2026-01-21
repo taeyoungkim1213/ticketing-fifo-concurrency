@@ -62,7 +62,7 @@ DB는 결과 저장소로만 사용하고,
 - MEMBER_TICKET : 회원이 발급받은 티켓 이력
 
 ### 2-4 API 문서화
-<img width="1141" alt="image" src="https://user-images.githubusercontent.com/80039556/220289029-3f706454-526f-4929-adcf-3091563ef8b1.png">
+<img width="1502" height="1167" alt="image" src="https://github.com/user-attachments/assets/01eb7ca8-49c3-4947-8f31-b99e615ac55e" />
 
 ### 2-5 부하 테스트
 
