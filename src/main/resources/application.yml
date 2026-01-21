@@ -1,0 +1,29 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    url: jdbc:mysql://localhost:3308/coupon_fifo?serverTimezone=Asia/Seoul&useSSL=false
+    username: coupon
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+#      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+  redis:
+    host: localhost
+    port: 6379
+logging:
+  level:
+    org:
+      hibernate.SQL: debug
+redis:
+  lock:
+    coupon: COUPON
