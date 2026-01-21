@@ -64,7 +64,7 @@ DB는 결과 저장소로만 사용하고,
 ### 2-4 API 문서화
 <img width="1502" height="1167" alt="image" src="https://github.com/user-attachments/assets/01eb7ca8-49c3-4947-8f31-b99e615ac55e" />
 
-### 2-5 부하 테스트
+<!-- ### 2-5 부하 테스트
 
 <img width="247" alt="image" src="https://user-images.githubusercontent.com/80039556/220295853-4f4a2d18-d61f-4c53-9a70-98ff4ec6ca0e.png">
 
@@ -81,7 +81,7 @@ DB는 결과 저장소로만 사용하고,
 
 - 회원티켓 테이블에서 중복 발급되었는지 조회 : 중복 발급이 없는 것을 볼 수 있음
   - 11번 티켓에 대해서만 발급요청을 했기에 회원id(mem_id)가 중복됐는지만 체크하면 됨
-<img width="269" alt="image" src="https://user-images.githubusercontent.com/80039556/220330483-123f1a72-4ae4-42dc-8210-08205191e6b1.png">
+<img width="269" alt="image" src="https://user-images.githubusercontent.com/80039556/220330483-123f1a72-4ae4-42dc-8210-08205191e6b1.png">  -->
 
 ### 2-6 티켓발급 테스트
 <img width="1023" alt="image" src="https://github.com/Sangyong-Jeon/coupon_fifo-concurrency_issue/assets/80039556/e0c56eaf-11be-4532-905c-194acfda7c50">
