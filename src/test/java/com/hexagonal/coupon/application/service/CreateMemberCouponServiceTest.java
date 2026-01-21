@@ -52,19 +52,19 @@ class CreateMemberCouponServiceTest {
     private final String TEST_COUPON_NAME = "테스트티켓";
 
     @BeforeAll
-    void 티켓_생성() {
+    void 쿠폰_생성() {
         createCouponPort.createCoupon(new Coupon(testCouponId, TEST_COUPON_NAME, 1000, 20000, 20000));
         testCouponId = findCouponUseCase.findCouponByName(TEST_COUPON_NAME).getId();
     }
 
     @AfterAll
-    void 티켓_삭제() {
+    void 쿠폰_삭제() {
         deleteCouponUseCase.deleteCoupon(testCouponId);
     }
 
     @Test
     @Order(1)
-    void 티켓_수량_확인() {
+    void 쿠폰_수량_확인() {
         final int remainQuantity = 20000;
         final int currentRemainQuantity = findCouponUseCase.findCouponByName(TEST_COUPON_NAME).getRemainQuantity();
         assertEquals(remainQuantity, currentRemainQuantity);
@@ -72,7 +72,7 @@ class CreateMemberCouponServiceTest {
 
     @Test
     @Order(2)
-    void 여러회원_티켓_발급() throws InterruptedException {
+    void 여러회원_쿠폰_발급() throws InterruptedException {
         //given
         final int remainQuantity = 10000;
         final int memberCount = 10000;
