@@ -47,7 +47,7 @@ DB는 결과 저장소로만 사용하고,
 ### 2-2. 육각형 아키텍처 패키지 구조
 - 회원티켓 발급 API에 관한 클래스만 적은 패키지 구조
 - 
-- <img width="665" alt="image" src="https://github.com/user-attachments/assets/f5bd56a4-2f02-4dd4-9e2d-14f2db18de16" />
+- <img width="765" alt="image" src="https://github.com/user-attachments/assets/f5bd56a4-2f02-4dd4-9e2d-14f2db18de16" />
 
 <img width="1100" alt="image" src="https://user-images.githubusercontent.com/80039556/220341229-e8e13aac-0d12-43df-afcd-abc837712e6e.png">
 
