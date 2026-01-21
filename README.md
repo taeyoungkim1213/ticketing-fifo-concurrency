@@ -55,7 +55,7 @@ DB는 결과 저장소로만 사용하고,
 
 
 ### 2-3. 데이터베이스 ERD
-<img width="854" alt="image" src="https://user-images.githubusercontent.com/80039556/220288462-8f463061-52a3-4a58-af00-04a98fddb5be.png">
+<img width="902" height="789" alt="image" src="https://github.com/user-attachments/assets/b60f972e-58c6-4902-87f1-c2c21c907d0f" />
 - TICKET : 발급 대상 티켓 정보
 - MEMBER : 회원 정보
 - MEMBER_TICKET : 회원이 발급받은 티켓 이력
