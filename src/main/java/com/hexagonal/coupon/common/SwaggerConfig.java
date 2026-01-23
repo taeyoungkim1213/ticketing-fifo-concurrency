@@ -29,7 +29,7 @@ class SwaggerConfig {
                 .title("선착순티켓발급 API 명세서")
                 .description("헥사고날 아키텍처 기반 선착순티켓발급 API 명세서")
                 .version("1.0")
-                .contact(new Contact("myomyo", "", "wjstkddyd420@gmail.com"))
+                .contact(new Contact("kty991213", "", "kty991213@naver.com"))
                 .build();
     }
 }
